@@ -12,7 +12,7 @@ export default function Header() {
                         <h1 className="text-black font-extrabold text-2xl">grammarly</h1>
                     </div>
 
-                    <ul className="hidden 2xl:flex gap-8 text-black text-sm md:text-lg items-center">
+                    <ul className="hidden 2xl:flex gap-8 text-black text-sm md:text-base items-center">
                         <li className="flex items-center hover:text-gray-700">
                             <a href="#" className="flex">
                                 Why Grammarly
@@ -51,25 +51,25 @@ export default function Header() {
                     <button className="py-2 px-4 hover:bg-gray-100 rounded-md text-black font-bold">
                         <a href="#">My Grammarly</a>
                     </button>
-                    <button className="bg-green-700 text-white py-2 px-4 rounded-md hover:bg-green-600 transition-colors duration-200 shadow-md">
+                    <button className="bg-emerald-700 text-white py-2 px-4 rounded-md hover:bg-green-600 transition-colors duration-200 shadow-md">
                         <a className="w-full" href="#">Start a Free Trial</a>
                     </button>
                 </div>
             </nav>
 
             <section>
-                <div className="h-14 bg-neutral-100 text-black font-sans flex items-center">
+                <div className="h-14 px-16 bg-neutral-100 text-black font-sans hidden md:flex items-center gap-20">
 
                     <div>
                         <h3 className="font-bold text-2xl">Business</h3>
                     </div>
 
                     <div>
-                        <ul>
+                        <ul className="hidden md:flex gap-8 text-black text-sm md:text-base items-center">
                             <li><a href="#">Pricing</a></li>
-                            <li><a href="#"></a></li>
-                            <li></li>
-                            <li></li>
+                            <li><a href="#" className="flex items-center">Solutions <RiArrowDropDownLine /></a></li>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Security</a></li>
                         </ul>
                     </div>
 
