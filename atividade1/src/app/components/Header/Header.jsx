@@ -14,19 +14,19 @@ export default function Header() {
 
                     <ul className="hidden 2xl:flex gap-8 text-black text-sm md:text-base items-center">
                         <li className="flex items-center hover:text-gray-700">
-                            <a href="#" className="flex">
+                            <a href="#" className="flex items-center">
                                 Why Grammarly
                                 <RiArrowDropDownLine size="1.8rem" />
                             </a>
                         </li>
                         <li className="flex items-center hover:text-gray-700">
-                            <a href="#" className="flex">
+                            <a href="#" className="flex items-center">
                                 For Work
                                 <RiArrowDropDownLine size="1.8rem" />
                             </a>
                         </li>
                         <li className="flex items-center hover:text-gray-700">
-                            <a href="#" className="flex">
+                            <a href="#" className="flex items-center">
                                 For Education
                                 <RiArrowDropDownLine size="1.8rem" />
                             </a>
@@ -35,7 +35,7 @@ export default function Header() {
                             <a href="#">Compare Plans</a>
                         </li>
                         <li className="flex items-center hover:text-gray-700">
-                            <a href="#" className="flex">
+                            <a href="#" className="flex items-center">
                                 Tools & Guides
                                 <RiArrowDropDownLine size="1.8rem" />
                             </a>
@@ -51,7 +51,7 @@ export default function Header() {
                     <button className="py-2 px-4 hover:bg-gray-100 rounded-md text-black font-bold">
                         <a href="#">My Grammarly</a>
                     </button>
-                    <button className="bg-emerald-700 text-white py-2 px-4 rounded-md hover:bg-green-600 transition-colors duration-200 shadow-md">
+                    <button className="bg-emerald-700 text-white py-2 px-4 rounded-md hover:bg-emerald-800 transition-colors duration-200 shadow-md">
                         <a className="w-full" href="#">Start a Free Trial</a>
                     </button>
                 </div>
