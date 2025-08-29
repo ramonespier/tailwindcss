@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Dashboard />
+      <div className="md:h-6/7 flex justify-center items-center">
+        <Dashboard />
+      </div>
     </>
   )
 }
