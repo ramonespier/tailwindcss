@@ -1,7 +1,7 @@
 export default function Dashboard() {
     return (
         <>
-            <section className="my-13 md:my-0 container mx-auto flex flex-col justify-center lg:flex-row items-center">
+            <section className="my-13 md:my-0 container mx-auto flex flex-col justify-center md:flex-row items-center">
                 <div className="flex flex-col gap-16">
                     <div>
                         <h2 className="text-center font-extrabold text-3xl md:text-6xl">AI Your Business Can Run With</h2>
